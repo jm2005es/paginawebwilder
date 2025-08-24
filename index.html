@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi mini sitio</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>¡Hola! Soy <span class="resaltado">Wilder Alexander Solórzano Ortiz</span></h1>
+    <nav aria-label="Secciones">
+      <a href="#quien">Quién soy</a>
+      <a href="#comida">Qué me gusta comer</a>
+      <a href="#lugar">Lugar que quiero conocer</a>
+      <a href="#musica">Mi música</a>
+    </nav>
+  </header>
+
+  <main>
+  <section id="quien">
+  <h2>¿Quién soy?</h2>
+  <div class="perfil">
+    <p>
+      Soy <strong>Wilder Alexander Solórzano Ortiz</strong>, estudiante de Psicologia Industrial(a) al que le gusta la
+      tecnología, aprender cosas nuevas. Disfruto mi carrera  y pasar tiempo con mi familia y amigos.
+    </p>
+    <img src="yo.jpeg" alt="Foto de perfil">
+  </div>
+
+  <div class="chips">
+    <span class="chip">MUSICA</span>
+    <span class="chip">SOCIALIZAR</span>
+    <span class="chip">FOTOGRAFIA</span>
+    <span class="chip">VIAJAR</span>
+  </div>
+</section>
+
+    <!-- COMIDA -->
+    <section id="comida">
+      <h2>¿Qué me gusta comer?</h2>
+      <ul>
+        <li>Pollo Horneado</li>
+      </ul>
+    </section>
+
+ <section id="lugares">
+  <h2>¿Dónde quiero ir a conocer?</h2>
+  <div class="card">
+    <img src="europa.jpg" alt="Lugar que quiero conocer">
+    <div class="card-content">
+      <a href="https://es.wikipedia.org/wiki/Europa" target="_blank" class="btn">Saber más</a>
+    </div>
+  </div>
+</section>
+
+    <!-- MÚSICA -->
+<section id="musica">
+  <h2>¿Qué música me gusta?</h2>
+  <p>Escucho mucho a Lana del Rey. Aquí dejo un ejemplo:</p>
+
+  <div class="song-card">
+    <img src="cancion.jpg" alt="Portada de mi canción favorita">
+    <div class="audio-container">
+      <audio controls>
+        <source src="musica.mp3" type="audio/mpeg" />
+        Tu navegador no puede reproducir audio.
+      </audio>
+    </div>
+  </div>
+</section>
+
+  </main>
+  <footer>
+    Hecho con ♥ por Helen — <a class="link" href="#quien">volver arriba</a>
+  </footer>
+</body>
+</html>
